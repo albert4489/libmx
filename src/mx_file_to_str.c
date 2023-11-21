@@ -43,3 +43,4 @@ char *mx_file_to_str(const char *file) {
     close(file2);
     return str;
 }
+

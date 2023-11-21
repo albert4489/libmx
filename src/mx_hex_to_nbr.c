@@ -22,3 +22,4 @@ unsigned long mx_hex_to_nbr(const char *hex) {
     }
     return dec;
 }
+

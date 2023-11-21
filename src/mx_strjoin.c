@@ -18,3 +18,4 @@ char *mx_strjoin(const char *s1, const char *s2) {
     mx_strcat(str,s2);
     return str;
 }
+

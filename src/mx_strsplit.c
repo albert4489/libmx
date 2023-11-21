@@ -28,3 +28,4 @@ char **mx_strsplit(const char *s, char c) {
     arr[words] = NULL;
     return arr;
 }
+

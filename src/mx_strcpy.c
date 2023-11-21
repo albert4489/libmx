@@ -13,3 +13,4 @@ char *mx_strcpy(char *dst, const char *src) {
     *crt = '\0';
     return dst;
 }
+

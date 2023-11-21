@@ -25,3 +25,4 @@ char *mx_strtrim(const char *str) {
 
     return trimm_str;
 }
+

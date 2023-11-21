@@ -8,3 +8,4 @@ void mx_foreach(int *arr, int size, void (*f)(int)) {
         i++;
     }
 }
+

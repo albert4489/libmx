@@ -9,3 +9,4 @@ int mx_list_size(t_list *list) {
     }
     return count;
 }
+

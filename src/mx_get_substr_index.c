@@ -21,3 +21,4 @@ int mx_get_substr_index(const char *str, const char *sub) {
     }
     return -1;
 }
+

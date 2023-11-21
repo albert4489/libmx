@@ -8,13 +8,8 @@
 #include <wchar.h>
 #include <stdbool.h>
 #include <fcntl.h>
-
-#ifdef MALLOC
 #include <malloc/malloc.h>
-#else
-#include <malloc.h>
-#define malloc_size malloc_usable_size
-#endif
+
 
 //Additioal func
 bool mx_isspace(char c);
@@ -89,3 +84,4 @@ int mx_list_size(t_list *list);
 t_list *mx_sort_list(t_list *lst, bool (*cmp)(void*, void*));
 
 #endif
+

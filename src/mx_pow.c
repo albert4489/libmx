@@ -10,3 +10,4 @@ double mx_pow(double n, unsigned int pow) {
     else
         return n * answer * answer;
 }
+

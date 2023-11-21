@@ -9,3 +9,4 @@ int mx_strlen(const char *s) {
     }
     return counter;
 }
+

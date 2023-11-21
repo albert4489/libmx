@@ -12,3 +12,4 @@ char *mx_strdup(const char *s1) {
 
     return dup;
 }
+
